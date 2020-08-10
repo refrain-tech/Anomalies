@@ -1,0 +1,78 @@
+@charset "utf-8";
+html {
+	color: dimgray;
+	font: 10px serif;
+	user-select: none;
+}
+body {
+	margin: 1rem;
+}
+a {
+	color: dodgerblue;
+	text-decoration: none;
+}
+code {
+	background: lightgray;
+	font: 1rem monospace;
+}
+h1 {
+	border-left: solid 0.5rem darkred;
+	box-shadow: 0.5rem 0.5rem 0.5rem gray;
+	font-size: 2rem;
+	margin: 1rem 0;
+	padding: 0.5rem 0 0.5rem 1rem;
+}
+h2 {
+	border-left: solid 0.5rem darkgreen;
+	box-shadow: 0.5rem 0.5rem 0.5rem gray;
+	font-size: 1.8rem;
+	margin: 1rem 0;
+	padding: 0.5rem 0 0.5rem 1rem;
+}
+h3 {
+	border-left: solid 0.5rem darkblue;
+	box-shadow: 0.5rem 0.5rem 0.5rem gray;
+	font-size: 1.6rem;
+	margin: 1rem 0;
+	padding: 0.5rem 0 0.5rem 1rem;
+}
+hr {
+	border: 0;
+	border-top: solid 1px gray;
+	margin: 1rem 0;
+	padding: 0;
+}
+img {
+	margin: 1rem 0;
+	padding: 0;
+	width: 100%;
+}
+p {
+	font-size: 1rem;
+	margin: 1rem 0;
+	padding: 0;
+}
+table {
+	border-spacing: 0;
+	margin: 1rem 0;
+	padding: 0;
+	max-width: 100%;
+}
+th {
+	border: 0;
+	border-bottom: solid 1px gray;
+	margin: 0;
+	padding: 0.5rem 1rem;
+}
+td {
+	border: 0;
+	border-bottom: solid 1px lightgray;
+	margin: 0;
+	padding: 0.5rem 1rem;
+}
+td:first-child {
+	white-space: nowrap;
+}
+#src {
+	display: none;
+}

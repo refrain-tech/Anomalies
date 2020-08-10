@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8" />
+		<meta content = "initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" name = "viewport" />
+		<link href = "style.css" rel = "stylesheet" />
+	</head>
+	<body>
+		<a href = "./"><img src = "logo.png" /></a>
+		<div id = "src">
+# Anomalies
+
+## Documents
+
+|Anomalies No.|Anomalies Name|
+|:-:|:-|
+|0000|[███](Anomalies-0000.html)|
+|0001|[███号室](Anomalies-0001.html)|
+|0002|[かつて、そこに祀られし者](Anomalies-0002.html)|
+		</div>
+		<div id = "dest"></div>
+		<script src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<script>
+dest.innerHTML = marked(src.textContent);
+		</script>
+	</body>
+</html>
