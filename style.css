@@ -125,6 +125,11 @@ pre code {
 	padding: 1rem;
 	ward-wrap: nowrap;
 }
+section {
+	margin: 1rem 0;
+	padding: 0;
+	padding-left: 1rem;
+}
 table {
 	border-spacing: 0;
 	margin: 1rem 0;
