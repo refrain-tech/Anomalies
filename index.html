@@ -6,7 +6,7 @@
 		<link href = "/res/color.css" rel = "stylesheet" />
 		<link href = "style.css" rel = "stylesheet" />
 	</head>
-	<body>
+	<body class = "doc-root">
 		<a href = "./"><img src = "logo.png" /></a>
 		<div id = "src">
 # Anomalies
@@ -19,7 +19,7 @@
 |0001|[███号室](Anomalies-0001.html)|
 |0002|[かつて、そこに祀られし者](Anomalies-0002.html)|
 		</div>
-		<div class = "doc-root" id = "dest"></div>
+		<div id = "dest"></div>
 		<script src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 		<script>
 dest.innerHTML = marked(src.textContent);
