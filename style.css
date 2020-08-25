@@ -8,87 +8,87 @@ body {
 	margin: 0 auto;
 	max-width: 51.2rem;
 }
-#root a {
+.doc-root a {
   color: var(--lightblue);
   text-decoration: none;
 }
-#root a:visited {
+.doc-root a:visited {
   color: var(--darkmagenta);
 }
-#root blockquote {
+.doc-root blockquote {
   border-left: solid 0.5rem var(--gray);
   margin: 1rem 0;
   padding: 0.5rem 0 0.5rem 1rem;
 }
-#root code {
+.doc-root code {
   background: var(--lightgray);
   font-style: monospace;
 }
-#root dd {
+.doc-root dd {
   margin: 0;
   padding: 0;
   padding-left: 2rem;
 }
-#root dl {
+.doc-root dl {
   margin: 1rem 0;
   padding: 0;
 }
-#root dt {
+.doc-root dt {
   margin: 0;
   padding: 0;
 }
-#root h1, #root h2, #root h3, #root h4, #root h5, #root h6 {
+.doc-root h1, .doc-root h2, .doc-root h3, .doc-root h4, .doc-root h5, .doc-root h6 {
   box-shadow: 0.5rem 0.5rem 0.5rem var(--gray);
   margin: 1rem 0;
   padding: 0.5rem;
   padding-right: 0;
 }
-#root h1 {
+.doc-root h1 {
   border-left: solid 0.5rem var(--darkred);
   font-size: 2rem;
 }
-#root h2 {
+.doc-root h2 {
   border-left: solid 0.5rem var(--darkgreen);
   font-size: 1.8rem;
 }
-#root h3 {
+.doc-root h3 {
   border-left: solid 0.5rem var(--darkblue);
   font-size: 1.6rem;
 }
-#root h4 {
+.doc-root h4 {
   border-left: solid 0.5rem var(--darkmagenta);
   font-size: 1.4rem;
 }
-#root h5 {
+.doc-root h5 {
   border-left: solid 0.5rem var(--darkyellow);
   font-size: 1.2rem;
 }
-#root h6 {
+.doc-root h6 {
   border-left: solid 0.5rem var(--darkcyan);
   font-size: 1rem;
 }
-#root hr {
+.doc-root hr {
   border: 0;
   border-top: solid 1px var(--darkgray);
   margin: 1rem 0;
   padding: 0;
 }
-#root img {
+.doc-root img {
   display: block;
   margin: 1rem 0;
   padding: 0;
   width: 100%;
 }
-#root ol, #root ul {
+.doc-root ol, .doc-root ul {
   margin: 1rem 0;
   padding: 0;
   padding-left: 2rem;
 }
-#root p {
+.doc-root p {
   margin: 1rem 0;
   padding: 0;
 }
-#root pre code {
+.doc-root pre code {
   background: var(--gray);
   border-radius: 1rem;
   color: white;
@@ -97,34 +97,34 @@ body {
   padding: 1rem;
   ward-wrap: nowrap;
 }
-#root section {
+.doc-root section {
   margin: 1rem 0;
   padding: 0;
   padding-left: 1rem;
 }
-#root table {
+.doc-root table {
   border-spacing: 0;
   margin: 1rem 0;
   padding: 0;
   max-width: 100%;
 }
-#root th {
+.doc-root th {
   border: 0;
   border-bottom: solid 1px var(--darkgray);
   margin: 0;
   padding: 0.5rem 1rem;
 }
-#root td {
+.doc-root td {
   border: 0;
   border-bottom: solid 1px var(--lightgray);
   margin: 0;
   padding: 0.5rem 1rem;
 }
-#root tr {
+.doc-root tr {
   margin: 0;
   padding: 0;
 }
-#root td:first-child {
+.doc-root td:first-child {
   white-space: nowrap;
 }
 #src {
